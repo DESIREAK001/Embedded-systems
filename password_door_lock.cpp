@@ -13,7 +13,7 @@ char keys[ROW_NUM][COL_NUM] = {
 };
 
 byte pin_rows[ROW_NUM] = {9, 8, 7, 6}; //connect to the row pinouts of the keypad
-byte pin_column[COL_NUM] = {5, 4, 3}; //connect to the column pinouts of the keypad
+byte pin_column[COL_NUM] = {5, 4, 3, 2}; //connect to the column pinouts of the keypad
 
 // Initialize an instance of class NewKeypad
 Keypad keypad = Keypad(makeKeymap(keys), pin_rows, pin_column, ROW_NUM, COL_NUM);
